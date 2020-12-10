@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONVERSE</title>
+  <link rel="stylesheet" href="../css/public.css">
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <!-- 头部区域 -->
+  <div class="header">
+    <div class="header_1">
+      <div class="logo"></div>
+      <div class="header_right">
+        <div class="login_one">
+        <span class="log">登录 </span>
+        <span>/</span>
+        <span class="register">注册</span>
+          </div>
+          
+            <span class="login_go hide">欢迎您，李家翔</span>
+          
+        <span class="user_img"></span>
+        <a href="" class="cart">购物车</a>
+        <span class="cart_img">0</span>
+        <span class="consults"></span>
+        <span class="search"></span>
+        <span class="help"></span>
+     
+     
+     
+      </div>
+    
+    
+    </div>
+  
+  </div>
+
+  <!-- login登录盒子 -->
+  <div class="login">
+    <div class="login_1 center">
+      <div class="login_1Left">
+        <dl>
+          <dt>还未注册？</dt>
+          <dd>
+            注册账户<span class="login_1Leftimg"></span>
+            
+          </dd>
+        </dl>
+      </div>
+      <div class="login_1Right">
+        <form id="login">
+          <label>已经成为会员？</label>
+          <input type="text" name="username"  autocomplete="off" placeholder="邮箱/手机" id="username">
+          <p class="error">请输入有效的电子邮箱/手机号码！</p>
+          <input type="text" name="password"  autocomplete="off" placeholder="账户密码" id="password">
+          
+          <input type="text" placeholder="请输入验证码" id="verification">
+
+          <span id="verification_1"><img src="https://www.converse.com.cn/botdetectcaptcha?get=image&c=pc_login&t=f65bff72d1e74a94ae8d4d7648e21fdd&d=1607149589292"></span>
+          
+         <div class="rule">
+           <input type="checkbox" id="rules">
+           <p>一旦登录，即表明您同意匡威更新的 隐私政策<br>和使用规则
+          </p>
+        </div>
+        <button type="submit" class="login_btn active">登录 <span class="imgchang"></span></button>
+        <i>忘记密码？</i>
+        </form>        
+      <div class="sanjiao"></div>
+      </div>
+
+    </div>
+  </div>
+  <!-- 注册盒子 -->
+  <div class="registerbox activ">
+    <div class="register_1 center">
+      <form class="regform">
+        <label>注册有礼</label>
+          <input type="text" placeholder="手机号码" name="username" class="username">
+          <input type="text" placeholder="密码" name="password" id="password1">
+          <input type="text" placeholder="再次输入" name="password"> 
+          <button class="regBtn">注册</button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- 搜索 -->
+  <div class="searchBox">
+    <div class="search_1 center">
+      <input class="searchInp" type="text">
+      <ul class="searchUl">
+        <!-- <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li>
+        <li>1</li> -->
+      </ul>
+      <span class="searchSpan">想找什么随便搜</span>
+      <div class="searchFun clearfix">
+        <button class="seachBtn">
+        </button>
+        <div class="closeSea"></div>
+      </div>
+      <span class="seaS"></span>
+    </div>
+  </div>
+  <!-- nav区域 -->
+<div class="navigation">
+  <div class="nav center clearfix">
+    <ul>
+      <li class="man_menu"><a href="../html/list.html">男的</a>
+        <i class="nav_sj"></i>
+     
+      </li>
+      <li class="women_menu"><a href="../html/list.html">女的</a>
+        <i class="nav_sj"></i>
+      </li>
+      <li class="children_li"><a href="../html/list.html">儿童</a>
+        <i class="nav_sj"></i>
+      </li>
+      <li class="discount_li"><a href="../html/list.html">12.12优惠</a>
+        <i class="nav_sj"></i>
+      </li>
+      <li><a href="../html/list.html">尖货发售</a>
+        <i class="nav_sj"></i>
+      </li>
+      <li><a href="../html/list.html">店铺分布</a>
+        <i class="nav_sj"></i>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- 二级菜单 -->
+<div class="secondary_menu clearfix">
+  <div class="menu_b clearfix center">
+    <dl>
+      <dt><img src="../images/169335C691_nav.jpg"></dt>
+      <dd>踩的</dd>
+      </dl>
+      <dl>
+      <dt><img src="../images/man_app_nav_201026.jpg"></dt>
+      <dd>穿的</dd> 
+      </dl>
+      <dl>
+      <dt><img src="../images/man_acc_nav_201026.jpg"></dt>
+      <dd>戴的</dd>
+      </dl>
+      <dl>
+      <dt><img src="../images/man_warmapp_nav_201026.jpg"></dt>
+      <dd>外套</dd>
+      </dl>
+      <dl>
+      <dt><img src="../images/man_bottoms_nav_201026.jpg"></dt>
+      <dd>裤装</dd>
+      </dl>
+      <dl>
+      <dt><img src="../images/man_warmftw_nav_201026.jpg"></dt>
+      <dd>冬季</dd>
+      </dl>
+  </div>
+  <div class="line_1"></div>
+  <div class="menu_c center clearfix">
+    <dl>
+      <dt><img src="../images/nav_core_men_200315.png"></dt>
+      <dd>踩的</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/man_ct70_nav_201026.jpg?2020120301"></dt>
+      <dd>CHUCK 70</dd> 
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/man_as_nav_201026.jpg?2020120301"></dt>
+      <dd>ALL star</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/nav_os_man_200715.jpg?2020120301"></dt>
+      <dd>ONE STAR</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/man_jp_nav_201026.jpg?2020120301"></dt>
+      <dd>JACK PURCELL</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/man_pl_nav_201026.jpg?2020120301"></dt>
+      <dd>PRO LEATHER</dd>
+      </dl>
+      <dl>
+        <dt><img src="https://image.converse.com.cn/static/home/nav/man_cons_nav_201026.jpg?2020120301"></dt>
+        <dd>CONS</dd>
+        </dl>
+  </div>
+</div>
+
+<!-- 2 -->
+<div class="secondary_menu_2 clearfix">
+  <div class="menu_b clearfix center">
+    <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/woman_ftw_nav_201026.jpg?2020120301"></dt>
+      <dd>踩的</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/woman_mapp_nav_201026.jpg?2020120301"></dt>
+      <dd>穿的</dd> 
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/woman_acc_nav_201026.jpg?2020120301"></dt>
+      <dd>戴的</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/woman_warmapp_nav_201026.jpg?2020120301"></dt>
+      <dd>外套</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/woman_bottoms_nav_201026.jpg?2020120301"></dt>
+      <dd>裤装</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/woman_warmftw_nav_201026.jpg?2020120301"></dt>
+      <dd>冬季</dd>
+      </dl>
+      <dl>
+        <dt><img src="https://image.converse.com.cn/static/home/nav/woman_liftftw_nav_201026.jpg?2020120301"></dt>
+        <dd>厚底鞋</dd>
+        </dl>
+  </div>
+  <div class="line_1"></div>
+  <div class="menu_c center clearfix">
+    <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/nav_core_women_200315.png?2020120301"></dt>
+      <dd>踩的</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/man_ct70_nav_201026.jpg?2020120301"></dt>
+      <dd>CHUCK 70</dd> 
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/woman_as_nav_201026.jpg?2020120301"></dt>
+      <dd>ALL star</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/nav_os_woman_200715.jpg?2020120301"></dt>
+      <dd>ONE STAR</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/man_jp_nav_201026.jpg?2020120301"></dt>
+      <dd>JACK PURCELL</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/woman_pl_nav_201026.jpg?2020120301"></dt>
+      <dd>PRO LEATHER</dd>
+      </dl>
+      <dl>
+        <dt><img src="https://image.converse.com.cn/static/home/nav/woman_cons_nav_201026.jpg?2020120301"></dt>
+        <dd>CONS</dd>
+        </dl>
+  </div>
+</div>
+
+<!-- chirdren盒子 -->
+<div class="children_menu clearfix">
+  <div class="menu_b clearfix center">
+    <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/1-4-v2.png?2020120301"></dt>
+      <dd>(1-4岁)</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/4-8-v1.jpg?2020120301"></dt>
+      <dd>（4-8岁）</dd> 
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/8-12.jpg?2020120301"></dt>
+      <dd>（4-12岁）</dd>
+      </dl>
+      
+  </div>
+</div>
+
+<!-- 优惠菜单 -->
+<div class="discount_menu clearfix">
+  <div class="menu_b clearfix center">
+    <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/170617C601_nav.jpg?2020120301"></dt>
+      <dd>男子优惠</dd>
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/169335C691_nav.jpg?2020120301"></dt>
+      <dd>女子优惠</dd> 
+      </dl>
+      <dl>
+      <dt><img src="https://image.converse.com.cn/static/home/nav/669290C030_nav.jpg?2020120301"></dt>
+      <dd>儿童优惠</dd>
+      </dl>
+      
+  </div>
+</div>
+<!-- 防诈骗提示tips区域 -->
+<div class="tips">
+  <p class="center">尊敬的客户您好，我们店铺不会泄露您的任何消费信息，敬请放心。另外，我们也不会主动要求获取、收集、使用任何消费者的金融消费类信息（如：信用卡信息）。如果接到索取以上信息的电话，是属于诈骗电话，请勿相信，以防个人的钱财损失。如您对订单有疑问，请联系在线客服。</p>
+</div>
+
+
+<!-- banner轮播图区域 -->
+<div class="banner clearfix">
+  <ul class="imgbox clearfix">
+    <li class="active"><img src="../images/all_star_pack_kv_pc_201009.jpg"></li>
+    <li><img src="../images/bugs_80th_kv_pc_201027.gif"></li>
+    <li><img src="../images/voguing_kv_pc_201028.jpg"></li>
+    <li><img src="../images/metallic_kv_pc_201201.jpg"></li>
+    <li><img src="../images/elevation_kv_pc_201016.jpg"></li>
+    <li><img src="../images/thermo_felt_kv_pc_201124.jpg"></li> 
+  </ul>
+  <div class="change">
+    <div class="change_left"><span class="leftspan"></span></div>
+    <div class="change_right"><span class="rightspan"></span></div>
+  </div>
+  <div class="change_img">
+   <ol>
+     <li class="active">METALLIC VIS</li>
+     <li>THERMO FLET</li>
+     <li>ALL STARS</li>
+     <li>ELEVATION</li>
+     <li>VOGUING</li>
+     <li>BUGS 80TH</li>
+   </ol>
+  </div>
+</div>
+
+<!-- hot热卖单品区域 -->
+<div class="hot center">
+  <h1>热卖单品</h1>
+</div>
+
+<div class="bigBox">
+<div class="hotBox clearfix center">
+  
+  <div class="hotMan">
+    <a>男的踩的</a>
+    <a><img src="../images/top_02_1203.jpg" alt=""></a>
+  </div>
+  <div class="hotWomen">
+    <a>女的踩的</a>
+    <a><img src="../images/top_01_1203.jpg" alt=""></a>
+  </div>
+  <div class="clothes">
+    <a>穿的</a>
+    <a><img src="../images/top_01_05.jpg" alt=""></a>
+  </div>
+  <div class="hai">
+    <a>戴的</a>
+    <a><img src="../images/top_01_07.jpg" alt=""></a>
+  </div>  
+</div>
+<div class="border_1 center" >
+  <div class="sanj"></div>
+</div>
+<div class="hotChange center">
+<div class="hotBox_1 center clearfix" id="xuanxiang">
+  <dl>
+    <dt><a href="../html/list.html"><img src="https://image.converse.com.cn/resources/product/169468C102/169468C102_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】UNT1TL3D</a></dd>
+    <dd class="p_l">¥539.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169222C020/169222C020_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Converse x Bugs Bunny Chuck 70 Hi</a></dd>
+    <dd class="p_b">¥799.00</dd>
+    <dd class="p_c">¥559.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169607C102/169607C102_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck Taylor All Star CX</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥512.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/170048C102/170048C102_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥599.00</dd>
+    <dd class="p_c">¥509.00</dd>
+  </dl>
+  <div class="line"></div>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/158369C001/158369C001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】One Star</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥542.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/101001001/101001001_1B_NEW.png?20201203011"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck Taylor All Star Core 常青款</a></dd>
+    <dd class="p_b">¥399.00</dd>
+    <dd class="p_c">¥359.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/162058C001/162058C001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥539.00</dd>
+    <dd class="p_c">¥501.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/168673C102/168673C102_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥344.00</dd>
+  </dl>
+</div>
+
+<!-- 女的踩的 -->
+<div class="hotBox_1 center clearfix active" id="xuanxiang">
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/162053C247/162053C247_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_l">¥539.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/168671C102/168671C102_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥799.00</dd>
+    <dd class="p_c">¥559.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/168904C281/168904C281_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥512.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/568675C690/568675C690_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥599.00</dd>
+    <dd class="p_c">¥509.00</dd>
+  </dl>
+  <div class="line"></div>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/162065C102/162065C102_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】One Star</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥542.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/168513C333/168513C333_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck Taylor All Star Core 常青款</a></dd>
+    <dd class="p_b">¥399.00</dd>
+    <dd class="p_c">¥359.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/568926C610/568926C610_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥539.00</dd>
+    <dd class="p_c">¥501.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/167324C281/167324C281_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥344.00</dd>
+  </dl>
+</div>
+<!-- 穿的  -->
+<div class="hotBox_1 center clearfix" id="xuanxiang">
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10019988001/10019988001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】UNT1TL3D</a></dd>
+    <dd class="p_l">¥539.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10019970001/10019970001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Converse x Bugs Bunny Chuck 70 Hi</a></dd>
+    <dd class="p_b">¥799.00</dd>
+    <dd class="p_c">¥559.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10019968466/10019968466_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck Taylor All Star CX</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥512.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10019461281/10019461281_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥599.00</dd>
+    <dd class="p_c">¥509.00</dd>
+  </dl>
+  <div class="line"></div>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10020991244/10020991244_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】One Star</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥542.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10020970001/10020970001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck Taylor All Star Core 常青款</a></dd>
+    <dd class="p_b">¥399.00</dd>
+    <dd class="p_c">¥359.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10020989467/10020989467_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥539.00</dd>
+    <dd class="p_c">¥501.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10020991467/10020991467_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥344.00</dd>
+  </dl>
+</div>
+<!-- 戴的 -->
+<div class="hotBox_1 center clearfix" id="xuanxiang">
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10020531690/10020531690_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】UNT1TL3D</a></dd>
+    <dd class="p_l">¥539.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10019881001/10019881001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Converse x Bugs Bunny Chuck 70 Hi</a></dd>
+    <dd class="p_b">¥799.00</dd>
+    <dd class="p_c">¥559.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10019884001/10019884001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck Taylor All Star CX</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥512.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10019867001/10019867001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥599.00</dd>
+    <dd class="p_c">¥509.00</dd>
+  </dl>
+  <div class="line"></div>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10019849001/10019849001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】One Star</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥542.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10019849281/10019849281_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck Taylor All Star Core 常青款</a></dd>
+    <dd class="p_b">¥399.00</dd>
+    <dd class="p_c">¥359.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10019851467/10019851467_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥539.00</dd>
+    <dd class="p_c">¥501.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/10019858001/10019858001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥344.00</dd>
+  </dl>
+</div>
+</div>
+</div>
+<!-- ================================================= -->
+<div class="hot_btn center">
+  <a href="">查看所有男的踩的最新商品<span class="btn_change"></span></a>
+</div>
+
+<!-- news新品推荐区域 -->
+<div class="hot center">
+  <h1>新品推荐</h1>
+</div>
+<div class="hotBox_1 center clearfix">
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169501C001/169501C001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Pro Leather</a></dd>
+    <dd class="p_l">¥639.00</dd>
+    <dd class="p_c">¥365.00</dd>
+
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169502C100/169502C100_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Pro Leather</a></dd>
+    <dd class="p_b">¥639.00</dd>
+    <dd class="p_c">¥365.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169442C001/169442C001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Jack Purcell</a></dd>
+    <dd class="p_b">¥699.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169440C610/169440C610_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Jack Purcell</a></dd>
+    <dd class="p_b">¥599.00</dd>
+    <dd class="p_c">¥479.00</dd>
+
+  </dl>
+  <div class="line"></div>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169441C001/169441C001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70 Zip</a></dd>
+    <dd class="p_b">¥669.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169444C030/169444C030_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck Taylor All Star</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥523.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/162058C001/162058C001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck Taylor All Star</a></dd>
+    <dd class="p_b">¥569.00</dd>
+    <dd class="p_c">¥523.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/168673C102/168673C102_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck Taylor All Star</a></dd>
+    <dd class="p_b">¥539.00</dd>
+    <dd class="p_c">¥495.00</dd>
+  </dl>
+  <div class="line"></div>
+
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169442C001/169442C001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Jack Purcell
+    </a></dd>
+    <dd class="p_l">¥569.00</dd>
+    <dd class="p_c">¥479.00</dd>
+
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169443C030/169443C030_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Jack Purcell</a></dd>
+    <dd class="p_b">¥599.00</dd>
+    <dd class="p_c">¥479.00</dd>
+
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169622C996/169622C996_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】All Star BB EVO</a></dd>
+    <dd class="p_b">¥869.00</dd>
+  </dl>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169623C021/169623C021_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Converse G4</a></dd>
+    <dd class="p_b">¥799.00</dd>
+  </dl>
+  <div class="line"></div>
+  <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169352C030/169352C030_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥599.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169534C001/169534C001_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥599.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/170049C688/170049C688_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】Chuck 70</a></dd>
+    <dd class="p_b">¥799.00</dd>
+    <dd class="p_c">¥559.00</dd>
+  </dl> <dl>
+    <dt><a href=""><img src="https://image.converse.com.cn/resources/product/169468C102/169468C102_1B_NEW.png?2020120301"></a></dt>
+    <dd class="p_name"><a href="">【男女同款】UNT1TL3D</a></dd>
+    <dd class="p_b">¥539.00</dd>
+  </dl>
+</div>
+
+
+<!-- 街头先型区域 -->
+<div class="street clearfix">
+  <div class="street_1 center clearfix">
+    <div class="streetTop">
+      <h1><span><img src="../images/logo-icon.png"></span>街头先型</h1>
+    </div>
+    
+    <div class="leftimg">
+      <div class="imgMask"></div>
+      <img src="../images/cozy_club_201117.jpg">
+    </div>
+
+    <div class="rightimg">
+      <div class="imgMask"></div>
+      <img src="../images/outerwear_201117.jpg">
+
+    </div>
+    <div class="sLeftBox">
+      <h1>可爱加分，温暖加倍！</h1>
+      <a href="">查看更多 <span class="LB1"></span></a>
+    </div>
+    <div class="sRightBox">
+      <h1>冬季保暖系列</h1>
+      <a href="">查看更多<span class="LB1"></span></a>
+    </div>
+ 
+  </div>
+</div>
+
+<div class="trend center">
+  <div class="streetTop">
+    <h1><span><img src="../images/logo-icon.png"></span>至酷精选 玩转潮流</h1>
+  
+  </div>
+  <div class="trendBox clearfix">
+    <div class="trendPlate clearfix">
+      <div class="plateImg">
+        <div class="imgMask"></div>
+        <img src="../images/renew_201117.jpg">
+      </div>
+      <h1>环保再生系列</h1>
+      <a href="">查看更多<span></span></a>
+    </div>
+
+    <div class="trendPlate marginLeft">
+      <div class="plateImg">
+        <div class="imgMask"></div>
+        <img src="../images/chuck_70_201117.jpg">
+      </div>
+      <h1>当季新色系列</h1>
+      <a href="">查看更多<span></span></a>
+    </div>
+
+    <div class="trendPlate marginLeft">
+      <div class="plateImg">
+        <div class="imgMask"></div>
+        <img src="../images/workwear_201117.jpg">
+      </div>
+      <h1>工装风格 出街有型</h1>
+      <a href="">查看更多<span></span></a>
+    </div>
+  </div>
+</div>
+<!-- follow -->
+<div class="follow">
+  <div class="follow_1 center clearfix">
+    <h1>关注CONVERSE</h1>
+    <p>Converse同时活跃在各类社交网络平台，点击下列你所喜爱的常用社交平台，密切关注Converse的最新产品与资讯。</p>
+    <div class="follow_2 clearfix">
+      <a href="" class="follow_2a"></a>
+      <a href="" class="follow_d"></a>
+    </div>
+  </div>
+</div>
+
+<div class="bottom_list center">
+  <div class="line_1"></div>
+  <div class="bottom_list_1 clearfix">
+    <ul>
+      <h4>男的</h4>
+      <p>CHUCK TAYLOR ALL STAR</p>
+      <p>CONVERSE CONS</p>
+      <p>JACK PURCELL</p>
+      <p class="MgB">CHUCK II</p>
+      <li>踩的</li>
+      <li>穿的</li>
+      <li>戴的</li>
+      <li>优惠</li>
+    </ul>
+
+    <ul>
+      <h4>女的</h4>
+      <p>CHUCK TAYLOR ALL STAR</p>
+      <p>CONVERSE CONS</p>
+      <p>JACK PURCELL</p>
+      <p class="MgB">CHUCK II</p>
+      <li>踩的</li>
+      <li>穿的</li>
+      <li>戴的</li>
+      <li>优惠</li>
+    </ul>
+
+    <ul>
+      <h4>儿童</h4>
+      <p>CHUCK TAYLOR ALL STAR</p>
+      <p>CONVERSE CONS</p>
+      <p></p>
+      <p class="MgB"></p>
+      <li>踩的</li>
+      <li>穿的</li>
+      <li>戴的</li>
+      <li>优惠</li>
+    </ul>
+
+    <ul>
+      <h4>GLOBAL</h4>
+      <p>CHUCK TAYLOR ALL STAR</p>
+      <!-- <p>CONVERSE CONS</p>
+      <p>JACK PURCELL</p>
+      <p class="MgB">CHUCK II</p>
+      <li>踩的</li>
+      <li>穿的</li>
+      <li>戴的</li>
+      <li>优惠</li> -->
+    </ul>
+
+  </div>
+  <div class="bottom_list_2">
+    <ul>
+     
+      <h4 class="MgB">我的账户</h4>
+      <li>会员中心</li>
+      <li>现有订单</li>
+      <li>过去订单</li>
+      <li>退换货</li>
+      <li>账户设置</li>
+      <li>地址簿</li>
+      <li>我的优惠券</li>
+      <li>我的收藏</li>
+      <li>我的评论</li>
+    </ul>
+    <ul>
+     
+      <h4 class="MgB">帮助和购物指南</h4>
+      <li>账户</li>
+      <li>订单</li>
+      <li>尺码</li>
+      <li>退货和退款</li>
+      <li>换货</li>
+      <li>配送</li>
+      <li>联系我们</li>
+      <li>常见问题</li>
+    </ul>
+
+    <ul>
+      <h4>NIKE</h4>
+      <p>NIKE+</p>
+      <P>JORDAN</P>
+    </ul>
+
+ 
+  </div>
+</div>
+
+<!-- 底部 -->
+<div class="bottom">
+  <div class="bot center clearfix">
+    <ul>
+      <li><a href="">关于我们</a></li>
+      <li><a href="">帮助和购物指南</a></li>
+      <li><a href="">隐私政策</a></li>
+      <li><a href="">使用规则</a></li>
+    
+    </ul>
+    <div class="bottomLogo"></div>
+    <p>@匡威体育用品（中国）有限公司 保留所有权利 
+       <a href="">沪ICP备11044134号-2</a>
+       <a href=""><img src="https://image.converse.com.cn/images/homepage/beiAn.png">沪公网安备 31011002001667号 </a>
+      <a href=""><img src="https://image.converse.com.cn/images/commons/business-license.png">电子营业执照 </a>
+      <a href="">公司证照</a>
+
+</p>
+    <div class="bottom_font">
+      <a href=""><img src="https://image.converse.com.cn/images/cautionIcon.png"></a>
+    </div>
+  </div>
+ 
+</div>
+
+<div class="body_mask">
+  <img width="100%" height="100%" src="https://image.converse.com.cn/images/commons/blackbg.png">
+</div>
+
+
+
+
+<script src="../assets/jquery/jquery.min.js"></script>
+<script src="../assets/jquery-validation/jquery.validate.min.js"></script>
+<script src="../js/login.js"></script>
+<script src="../js/pubilc.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/logon.js"></script>
+<script>
+  const a = new Banner('.banner')
+</script>
+</body>
+</html>
